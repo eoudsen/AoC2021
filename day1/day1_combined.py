@@ -18,5 +18,5 @@ def solve_part1(lines):
 
 
 if __name__ == "__main__":
-    print(solve_part1([int(x) for x in open('input.txt').readlines()]))
-    print(solve_part2(3))
+    print("Part 1:", solve_part1([int(x) for x in open('input.txt').readlines()]))
+    print("Part 2:", solve_part2(3))
