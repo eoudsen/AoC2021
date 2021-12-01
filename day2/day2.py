@@ -1,6 +1,6 @@
 
 def solve():
-    print(open('input.txt').readlines())
+    lines = open('input.txt').readlines()
 
 
 if __name__ == "__main__":
