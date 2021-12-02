@@ -9,12 +9,13 @@ def solve():
 
 
 def accept_command(command, horizontal, depth):
-    if command.startswith("forward"):
-        horizontal += int(command.split(" ")[1])
-    elif command.startswith("down"):
-        depth += int(command.split(" ")[1])
-    elif command.startswith("up"):
-        depth -= int(command.split(" ")[1])
+    cmd, val = command.split()
+    if cmd == "forward":
+        horizontal += int(val)
+    elif cmd == "down":
+        depth += int(val)
+    elif cmd == "up":
+        depth -= int(val)
     return horizontal, depth
 
 
