@@ -2,6 +2,7 @@ import math
 from statistics import median
 from statistics import mean
 
+
 def solve():
     numbers = [int(x) for x in open('input.txt').readline().split(",")]
     middle = median(numbers)
