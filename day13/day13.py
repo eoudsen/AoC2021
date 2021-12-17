@@ -81,7 +81,7 @@ def solve2():
     ys = [-1 * y for y in ys]
     plt.scatter(xs, ys)
     plt.show()
-    
+
 
 if __name__ == "__main__":
     print(solve())
